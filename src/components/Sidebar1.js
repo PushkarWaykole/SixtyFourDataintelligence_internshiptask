@@ -67,9 +67,7 @@ export const options = {
         font: {
           weight: 'bold',
         },
-        callback: function(label) {
-          return `\$${this.getLabelForValue(label)} days`
-        }
+        
 
       },
       position: 'right',
