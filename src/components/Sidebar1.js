@@ -67,8 +67,7 @@ export const options = {
         font: {
           weight: 'bold',
         },
-        
-
+      
       },
       position: 'right',
       beginAtZero: true,
@@ -106,14 +105,17 @@ export const options = {
           `${item.label}: days`,
       },
       display: true,
-      color: "black",
-      formatter: Math.round+"days",
+      color: "rgb(107 ,114 ,128 );",
+      
       anchor: "end",
-      offset: -30,
+      offset: -60,
       align: "start",
       font: {
         weight: 'bold',
         size: 12,
+      },
+      formatter: function(value, context) {
+        return  `${value} days`;
       }
     },
     legend: {
