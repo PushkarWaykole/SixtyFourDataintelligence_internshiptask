@@ -35,12 +35,18 @@ var options = {
   indexAxis: 'y',
   scales: {
     x: {
+      grid: {
+        display: false
+      },
       stacked: true,
       ticks:{
         display:false
       }
     },
     y: {
+      grid: {
+        display: false
+      },
       stacked: true,
       ticks:{
         font:{
